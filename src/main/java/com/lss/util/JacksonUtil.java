@@ -1,4 +1,4 @@
-package lss.util;
+package com.lss.util;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 

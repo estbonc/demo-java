@@ -1,4 +1,4 @@
-package lss.util;
+package com.lss.util;
 
 import javax.crypto.Cipher;
 import javax.crypto.SecretKey;

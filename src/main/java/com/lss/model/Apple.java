@@ -1,4 +1,4 @@
-package lss.model;
+package main.java.com.lss.model;
 
 /**
  * Author: liushuaishuai

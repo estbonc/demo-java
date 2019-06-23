@@ -1,4 +1,4 @@
-package lss.util;
+package com.lss.util;
 
 import java.io.Serializable;
 import java.util.Date;
