@@ -1,23 +1,30 @@
 package com.lss.study.list;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 public class Demo04 {
 
 	public static void main(String[] args) {
+		List<Integer> list = new ArrayList<Integer>();
+		list.add(3);
+		list.add(9);
+		list.add(4);
+		list.add(8);
+		list.add(7);
+		list.add(5);
+		list.add(6);
+		list.add(10);
+		list.add(2);
+		list.add(1);
 		
-		List<Integer> list1;
-		List<String> list2;
+		Collections.sort(list);
+		Collections.reverse(list);
+//		Collections.shuffle(list);
 		
-		list1 = list2;
-		
+		for(int i : list){
+			System.out.println(i);
+		}
 	}
-	
-	
-	public static void test(List<Integer> list1){
-		
-	}
-	
-	public static void test(List<String> list2){
-		
-	}
-	
 }
