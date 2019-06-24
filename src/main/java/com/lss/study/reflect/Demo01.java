@@ -17,7 +17,7 @@ public class Demo01 {
 
 		// 3. 通过完整类名访问
 		try {
-			Class<?> c3 = Class.forName("com.bwf.reflect.Student");
+			Class<?> c3 = Class.forName("com.lss.study.reflect.Student");
 			System.out.println(c3);
 
 

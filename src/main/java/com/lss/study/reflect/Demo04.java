@@ -6,7 +6,7 @@ public class Demo04 {
 
 	public static void main(String[] args) {
 		try {
-			Class<?> c = Class.forName("com.bwf.reflect.Student");
+			Class<?> c = Class.forName("com.lss.study.reflect.Student");
 			// 通过反射的方式，构造一个类的对象(调用的是无参构造)
 			Object student = c.newInstance();
 

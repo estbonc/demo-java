@@ -15,7 +15,7 @@ public class Demo03 {
 		Method[] methods = c.getDeclaredMethods();
 		for(int i = 0; i < methods.length; i++){
 			// 访问修饰符
-			String modi = Modifier.toString(methods[i].getModifiers());
+			String modifiers = Modifier.toString(methods[i].getModifiers());
 			// 返回值
 			String returnType = methods[i].getReturnType().getSimpleName();
 			// 方法名
@@ -30,7 +30,7 @@ public class Demo03 {
 				}
 			}
 			paraList += ")";
-			System.out.println(modi + " " + returnType + " " + mName + " " + paraList);
+			System.out.println(modifiers + " " + returnType + " " + mName + " " + paraList);
 		}
 
 
