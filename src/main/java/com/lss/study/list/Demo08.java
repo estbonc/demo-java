@@ -16,9 +16,9 @@ public class Demo08 {
 		
 		
 		// 1.
-//		for(Map.Entry<String, String> entry : map.entrySet()){
-//			System.out.println(entry.getKey() + "->" + entry.getValue());
-//		}
+		for(Map.Entry<String, String> entry : map.entrySet()){
+			System.out.println(entry.getKey() + "->" + entry.getValue());
+		}
 		
 		// 2.
 

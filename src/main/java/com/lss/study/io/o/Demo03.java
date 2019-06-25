@@ -13,7 +13,7 @@ public class Demo03 {
 
 		OutputStream os = null;
 		try {
-			os = new FileOutputStream("hello3.txt", true);
+			os = new FileOutputStream("hello3.txt",true);
 			os.write("world".getBytes());
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();

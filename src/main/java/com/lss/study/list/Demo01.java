@@ -11,8 +11,8 @@ public class Demo01 {
 		list.add(3.14);
 		list.add("hello");
 		list.add(true);
-		
-//		System.out.println(list.get(1));
+
+		System.out.println(list.get(1));
 		
 		for(int i = 0; i < list.size(); i++){
 			System.out.println(list.get(i));

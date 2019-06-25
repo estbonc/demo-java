@@ -3,7 +3,7 @@ package com.lss.study.exception;
 public class Demo02 {
 
 	public static void main(String[] args) {
-		test03();
+		test02();
 
 	}
 

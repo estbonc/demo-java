@@ -25,7 +25,7 @@ public class Demo04 {
 			age.set(student, 18);
 
 			// 设置 私有 money 字段
-			Field money = c.getDeclaredField("money");
+			Field money = c.getDeclaredField("age");
 			// 设置访问权限为允许访问
 			money.setAccessible(true);
 			money.set(student, 500);

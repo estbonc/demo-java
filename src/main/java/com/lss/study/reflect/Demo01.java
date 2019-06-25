@@ -23,6 +23,9 @@ public class Demo01 {
 
 			// 验证是否是同一个对象
 			System.out.println(c1 == c2);
+			System.out.println(c1.toString());
+			System.out.println(s.toString());
+			System.out.println(c3.toString());
 			System.out.println(c2 == c3);
 
 		} catch (ClassNotFoundException e) {

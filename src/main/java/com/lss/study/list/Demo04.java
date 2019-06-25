@@ -19,7 +19,7 @@ public class Demo04 {
 		list.add(2);
 		list.add(1);
 		
-		Collections.sort(list);
+//		Collections.sort(list);
 		Collections.reverse(list);
 //		Collections.shuffle(list);
 		

@@ -4,7 +4,7 @@ public class Demo01 {
 
 	public static void main(String[] args) {
 
-		//System.out.print1n("hello world");	// 语法错误
+		System.out.println("hello world");	// 语法错误
 		
 	}
 	
