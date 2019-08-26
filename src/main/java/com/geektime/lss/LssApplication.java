@@ -5,9 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class LssApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(LssApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(LssApplication.class, args);
+    }
 }
